@@ -1,5 +1,9 @@
 name: Build and deploy Jekyll site to gh-pages
 
+# Ensure the workflow has permission to push to the repository
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -12,6 +16,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Persist credentials so deploy actions can push using the GITHUB_TOKEN
+          persist-credentials: true
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
