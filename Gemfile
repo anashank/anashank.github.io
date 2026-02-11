@@ -1,9 +1,4 @@
 source "https://rubygems.org"
 
+# Use the GitHub Pages gem which pins a supported Jekyll + plugin set
 gem "github-pages", group: :jekyll_plugins
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
-gem "jekyll-feed"
-gem "jekyll-remote-theme"
-gem "minimal-mistakes-jekyll"
-gem "jekyll-include-cache"

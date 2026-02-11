@@ -1,4 +1,20 @@
 ---
+layout: default
+title: About
+permalink: /about/
+---
+
+## About
+
+Hi — I'm Anand. This site contains project case studies and a resume for recruiter review.
+
+### Skills
+
+- JavaScript / TypeScript
+- React / Next.js
+- Python
+- Web performance & accessibility
+---
 layout: single
 title: About
 permalink: /about/

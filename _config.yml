@@ -1,50 +1,20 @@
 title: Anand Shankar
-description: Personal website and project updates
+description: Personal website and portfolio
 
-# Site author
+# Use a GitHub Pages supported theme to avoid build problems
+theme: jekyll-theme-primer
+
 author:
-  name: Anand Shankar
-  email: ''
+  name: "Anand Shankar"
 
-# URL (leave blank for local development)
+# Keep URL blank for local development; GitHub Pages will set the live URL
 url: ""
 
-# Collections
+# Optional: enable a projects collection
 collections:
   projects:
     output: true
 
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-include-cache
-
-# Minimal Mistakes theme options (basic)
-theme: minimal-mistakes-jekyll
-logo: /assets/images/avatar.svg
 exclude:
   - Gemfile
   - Gemfile.lock
-
-# Navigation (fall back to _data/navigation.yml if present)
-navigation:
-  - title: Home
-    url: /
-  - title: Projects
-    url: /projects/
-  - title: About
-    url: /about/
-  - title: Resume
-    url: /resume/
-  - title: Contact
-    url: /contact/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: project
