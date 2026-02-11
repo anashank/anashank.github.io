@@ -22,7 +22,6 @@ plugins:
   - jekyll-sitemap
 
 # Minimal Mistakes theme options (basic)
-theme: minimal-mistakes
 logo: /assets/images/avatar.svg
 exclude:
   - Gemfile
